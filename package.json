@@ -1,0 +1,28 @@
+{
+  "name": "jwt-bcrypt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "5.0.1",
+    "jsonwebtoken": "8.5.1"
+  },
+  "devDependencies": {
+    "jest": "27.5.1",
+    "standard": "16.0.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "standard"
+    ],
+    "env": {
+      "jest": true
+    }
+  }
+}
